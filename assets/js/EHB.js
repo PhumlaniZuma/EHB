@@ -33,11 +33,39 @@ function Init(){
 $(document).ready(function(){
     $(document).on("blur",".firstName",function(){
         var firstName = $(".firstName").val().trim();
-        //validateWords(firstName,".firstName");
+        validateIsNotEmpty(firstName,".firstName");
     });
     $(document).on("blur",".lastName",function(){
         var lastName = $(".lastName").val().trim();
-        //validateWords(lastName,".lastName");
+        validateIsNotEmpty(lastName,".lastName");
+    });
+    $(document).on("blur",".contactNumber",function(){
+        var contactNumber = $(".contactNumber").val().trim();
+        validateIsNotEmpty(contactNumber,".contactNumber");
+    });
+    $(document).on("blur",".addressLine1",function(){
+        var addressLine1 = $(".addressLine1").val().trim();
+        validateIsNotEmpty(addressLine1,".addressLine1");
+    });
+    $(document).on("blur",".addressLine2",function(){
+        var addressLine2 = $(".addressLine2").val().trim();
+        validateIsNotEmpty(addressLine2,".addressLine2");
+    });
+    $(document).on("blur",".city",function(){
+        var city = $(".city").val().trim();
+        validateIsNotEmpty(city,".city");
+    });
+    $(document).on("blur",".province",function(){
+        var province = $(".province").val().trim();
+        validateIsNotEmpty(province,".province");
+    });
+    $(document).on("blur",".postalCode",function(){
+        var postalCode = $(".postalCode").val().trim();
+        validateIsNotEmpty(postalCode,".postalCode");
+    });
+    $(document).on("blur",".email",function(){
+        var Email = $(".email").val().trim();
+        ValidateEmail(".email",Email);
     });
 
     $(document).on("keypress", ".validateAlpha", function () {
@@ -312,16 +340,45 @@ function getName(value)
 
 function validate()
 {
-    if(validateWords($(".firstName").val().trim(),".firstName"))
+    var isValid = true;
+    if(!validateIsNotEmpty($(".firstName").val().trim(),".firstName"))
     {
-        return false;
+        isValid = false;
+    }if(!validateIsNotEmpty($(".contactNumber").val().trim(),".contactNumber"))
+    {
+        isValid = false;
+    }if(!validateIsNotEmpty($(".lastName").val().trim(),".lastName"))
+    {
+        isValid = false;
+    }if(!validateIsNotEmpty($(".addressLine1").val().trim(),".addressLine1"))
+    {
+        isValid = false;
+    }if(!validateIsNotEmpty($(".addressLine2").val().trim(),".addressLine2"))
+    {
+        isValid = false;
+    }if(!validateIsNotEmpty($(".city").val().trim(),".city"))
+    {
+        isValid = false;
+    }if(!validateIsNotEmpty($(".province").val().trim(),".province"))
+    {
+        isValid = false;
+    }if(!validateIsNotEmpty($(".postalCode").val().trim(),".postalCode"))
+    {
+        isValid = false;
+    }if(!ValidateEmail(".email",$(".email").val().trim()))
+    {
+        isValid = false;
     }
 
-    //return true;
+    if(isValid)
+    {
+        var hrefString = "./index.html";
+        location.href=hrefString;
+    }
 
 }
 
-function validateWords(Name,id){
+function validateIsNotEmpty(Name,id){
     if (Name == null || Name.length == 0 || Name == "") {
         $(id).addClass("is-invalid");
         return false;
@@ -330,4 +387,15 @@ function validateWords(Name,id){
         $(id).removeClass("is-invalid");
         return true;
     }
+}
+
+function ValidateEmail(id,value)
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value))
+  {
+  $(id).removeClass("is-invalid");
+    return (true)
+  }
+    $(id).addClass("is-invalid");
+    return (false)
 }
