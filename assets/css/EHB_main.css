@@ -1,0 +1,185 @@
+.navbar {
+    background-image: url("../images/dark background.png")
+}
+
+.navbar button {
+	color:white;
+}
+
+.icon-img {
+     width: 40px;
+    height: 34px;
+}
+
+.logo-img {
+     width: 200px;
+    height: 100px;
+} 
+
+.navbar-nav .nav-link{
+	color:white;
+}
+.navbar-collapse {
+	margin-bottom:-55px;
+}
+.navbar-collapse a:hover{
+	color:#ff4da2;
+}
+
+.dropdown-menu{
+	background-image: url("../images/dark background.png");
+	color:white;
+
+}
+.dropdown-item{
+	color:white;
+}
+.btn-outline-secondary:hover{
+	background-color: #ff4da2;
+    border-color: #ff4da2;
+	color:white;
+}
+
+.btn-outline-secondary{
+	color:#000000;
+}
+.price-text{
+	color:#000000;
+}
+.footer {
+    background-image: url("../images/dark background.png")
+}
+
+.footer .col-md-4{
+	padding-left:100px;
+}
+
+.body{
+	padding-bottom:0px;
+}
+
+.bottom-footer{
+	background:linear-gradient(to right, #f06eaa 0%, #442941 100%);
+	color:white;
+}
+
+.footer-img{
+	width:40px;
+	height:35px;
+	padding-right:10px;
+}
+.footer-logo-img{
+	width:100%;
+}
+
+.col-md-4 .row{
+	padding-bottom:15px;
+}
+
+.footer-links{
+	padding-top:90px;
+}
+
+.footer-email-submit{
+	background:#dc5bab;
+	color:white;
+	border:none;
+	border-radius: .25rem;
+}
+
+.footer-email-input{
+	background:rgba(255,255,255,0.07);
+	border:none;
+	width: 200px;
+}
+
+.footer .top-footer p{
+	color:rgba(255,255,255,0.41);
+}
+
+.footer .top-footer h4{
+	color:#fff;
+}
+
+.album{
+	background:#dc5bab;
+}
+
+.Products-list{
+	color:#ff4da2;
+}
+
+.bottom-footer p{
+	padding-left:35%;
+}
+.modal-dialog{
+	max-width:900px;
+}
+
+.img{
+	width:100%;
+}
+
+.checkoutbtn{
+    -webkit-appearance: unset;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #ff4da2;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+	margin-top: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #ff4da2;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #ff4da2;
+    border-radius: 5px;
+    text-align: center;
+    color: #ff4da2;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #ff4da2;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff4da2;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #ff4da2;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.py-5-text-center{
+    padding-top: 7rem!important;
+}
+.Max-weight{
+    max-width : 1250px;
+}
