@@ -239,3 +239,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.navbar-text{
+    display: initial;
+    padding-top: -0.5rem;
+    dding-bottom: -0.5rem;
+}
