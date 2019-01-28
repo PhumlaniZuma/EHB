@@ -5,26 +5,31 @@
 $(function(){
 	Init();
 	var imgSrc = GetURLParameter("src");
-    if(imgSrc != null  || imgSrc != "")
+    if(imgSrc != null  && imgSrc != "")
     {
       $("#Product_img").attr("src",imgSrc);
       setProductDetails(imgSrc);
     }
     var filterValue = GetURLParameter("filterValue");
-    if(filterValue != null  || filterValue != "")
+    if(filterValue != null  && filterValue != "")
     {
       SetFilterValue(filterValue);
     }
     var total = GetURLParameter("total");
-    if(total != null  || total != "")
+    if(total != null  && total != "")
     {
       $("#CheckOuttotal").text(total);
       $("#productPrice").text(total);
     }
     var Name = GetURLParameter("ProductName");
-    if(Name != null  || Name != "")
+    if(Name != null  && Name != "")
     {
       $("#ProductName").text(getName(Name));
+    }
+    var orderNumber = GetURLParameter("orderNumber");
+    if(orderNumber != null && orderNumber != "" && typeof orderNumber !== 'undefined')
+    {
+        retrieveValuesInSession()
     }
 });
 
@@ -372,7 +377,8 @@ function validate()
 
     if(isValid)
     {
-        var hrefString = "./index.html";
+        setValuesInSession();
+        var hrefString = "./Confirm.html?orderNumber=123723t67fe";
         location.href=hrefString;
     }
 
@@ -398,4 +404,35 @@ function ValidateEmail(id,value)
   }
     $(id).addClass("is-invalid");
     return (false)
+}
+
+function setValuesInSession()
+{
+    sessionStorage.setItem("firstName", $(".firstName").val().trim());
+    sessionStorage.setItem("lastName", $(".lastName").val().trim());
+    sessionStorage.setItem("contactNumber", $(".contactNumber").val().trim());
+    sessionStorage.setItem("email", $(".email").val().trim());
+    sessionStorage.setItem("addressLine1", $(".addressLine1").val().trim());
+    sessionStorage.setItem("addressLine2", $(".addressLine2").val().trim());
+    sessionStorage.setItem("city", $(".city").val().trim());
+    sessionStorage.setItem("province", $(".province").val().trim());
+    sessionStorage.setItem("postalCode", $(".postalCode").val().trim());
+    sessionStorage.setItem("productName",$(".ProductName").text().trim());
+    sessionStorage.setItem("productPrice",$(".productPrice").text().trim());
+    sessionStorage.setItem("total",$(".CheckOuttotal").text().trim());
+}
+
+function retrieveValuesInSession()
+{
+    $(".firstName").text(sessionStorage.getItem("firstName"));
+    $(".lastName").text(sessionStorage.getItem("lastName"));
+    $(".billingAddressLine1").text(sessionStorage.getItem("addressLine1"));
+    $(".billingCity").text(sessionStorage.getItem("city"));
+    $(".billingProvince").text(sessionStorage.getItem("province"));
+    $(".billingPostalCode").text(sessionStorage.getItem("postalCode"));
+    $(".productName").text(sessionStorage.getItem("productName"));
+    $(".productPrice").text(sessionStorage.getItem("productPrice"));
+    $(".total").text(sessionStorage.getItem("total"));
+    $(".subtotal").text(sessionStorage.getItem("total"));
+    $(".productTotal").text(sessionStorage.getItem("total"));
 }

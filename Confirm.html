@@ -83,11 +83,11 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">Billing Details</div>
                             <div class="panel-body">
-                                <strong>David Peere:</strong><br>
-                                1111 Army Navy Drive<br>
-                                Arlington<br>
-                                VA<br>
-                                <strong>22 203</strong><br>
+                                <strong><p class="navbar-text firstName" id="firstName"></p>:</strong><br/>
+                                <p class="navbar-text billingAddressLine1" id="billingAddressLine1"></p><br/>
+                                <p class="navbar-text billingCity" id="billingCity"></p><br/>
+                                <p class="navbar-text billingProvince" id="billingProvince"></p><br/>
+                                <p class="navbar-text billingPostalCode" id="billingPostalCode"></p><br/>
                             </div>
                         </div>
                     </div>
@@ -144,40 +144,28 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Samsung Galaxy S5</td>
-                                                <td class="text-center">$900</td>
+                                                <td><p class="navbar-text productName" id="productName"></p></td>
+                                                <td class="text-center"><p class="navbar-text productPrice" id="productPrice"></p></td>
                                                 <td class="text-center">1</td>
-                                                <td class="text-right">$900</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Samsung Galaxy S5 Extra Battery</td>
-                                                <td class="text-center">$30.00</td>
-                                                <td class="text-center">1</td>
-                                                <td class="text-right">$30.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Screen protector</td>
-                                                <td class="text-center">$7</td>
-                                                <td class="text-center">4</td>
-                                                <td class="text-right">$28</td>
+                                                <td class="text-right">R<p class="navbar-text productTotal" id="productTotal"></p></td>
                                             </tr>
                                             <tr>
                                                 <td class="highrow"></td>
                                                 <td class="highrow"></td>
                                                 <td class="highrow text-center"><strong>Subtotal</strong></td>
-                                                <td class="highrow text-right">$958.00</td>
+                                                <td class="highrow text-right">R<p class="navbar-text subtotal" id="subtotal"></p></td>
                                             </tr>
                                             <tr>
                                                 <td class="emptyrow"></td>
                                                 <td class="emptyrow"></td>
                                                 <td class="emptyrow text-center"><strong>Shipping</strong></td>
-                                                <td class="emptyrow text-right">$20</td>
+                                                <td class="emptyrow text-right">R0</td>
                                             </tr>
                                             <tr>
-                                                <td class="emptyrow"><i class="fa fa-barcode iconbig"></i></td>
+                                                <td class="emptyrow"></td>
                                                 <td class="emptyrow"></td>
                                                 <td class="emptyrow text-center"><strong>Total</strong></td>
-                                                <td class="emptyrow text-right">$978.00</td>
+                                                <td class="emptyrow text-right">R<p class="navbar-text total" id="total"></p></td>
                                             </tr>
                                         </tbody>
                                     </table>
