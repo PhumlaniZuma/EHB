@@ -332,6 +332,9 @@ function getName(value)
     }else if(value == "LACE%20FRONTAL")
     {
         return "Lace frontal";
+    }else if(value == "360%20LACE%20FRONTALS")
+    {
+        return "360 Lace frontals";
     }else if(value == "VIRGIN%20BUNDLES")
     {
         return "Virgin Bundles";
