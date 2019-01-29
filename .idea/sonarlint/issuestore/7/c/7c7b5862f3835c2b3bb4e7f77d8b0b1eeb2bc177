@@ -1,45 +1,46 @@
 
-ljavascript:S2814ì"CRename "d" as this name is already used in declaration at line 143.(«ãÙøÿÿÿÿ8Ì¼Ò»ò,
-ljavascript:S2814ê"CRename "b" as this name is already used in declaration at line 141.(‚ÿ—áüÿÿÿÿ8Ì¼Ò»ò,
-gjavascript:S2814Ê"CRename "f" as this name is already used in declaration at line 145.(’–Û8ì¹¬»ò,
-tjavascript:S2589"LRefactor this code so that this expression does not always evaluate to true.(Ş÷³ÿÿÿÿÿ8¡ó˜µ†-
-gjavascript:S2814Û"CRename "e" as this name is already used in declaration at line 144.(¯‚›´8ö¼È»ò,
-fjavascript:S2814Æ"CRename "b" as this name is already used in declaration at line 141.(¬·ÌV8ì¹¬»ò,
-gjavascript:S2814³"CRename "j" as this name is already used in declaration at line 149.(ˆô««8ğæ»ò,
-fjavascript:S2814°"CRename "g" as this name is already used in declaration at line 146.(¹™ÀH8ğæ»ò,
-`javascript:S3972Õ"7Move this "if" to a new line or add the missing "else".(ËÏ—áüÿÿÿÿ8Åß­¾ò,
-ljavascript:S2814®"CRename "e" as this name is already used in declaration at line 144.(àÚå²ùÿÿÿÿ8ğæ»ò,
-gjavascript:S2814é"CRename "a" as this name is already used in declaration at line 140.(šáí²8œùµò,
-ijavascript:S11265"AReplace this if-then-else statement by a single return statement.(²€äÅùÿÿÿÿ8 àıà†-
-hjavascript:S2589"LRefactor this code so that this expression does not always evaluate to true.(€¯Œü
-mjavascript:S2589"LRefactor this code so that this expression does not always evaluate to true.(š•©éùÿÿÿÿ
-ljavascript:S2814­"CRename "d" as this name is already used in declaration at line 143.(æƒÍÀÿÿÿÿÿ8ğæ»ò,
-gjavascript:S2814×"CRename "a" as this name is already used in declaration at line 140.(Üş—Ö8 éõµò,
-ljavascript:S2814É"CRename "e" as this name is already used in declaration at line 144.(ÆÑ£Ïúÿÿÿÿ8ì¹¬»ò,
-fjavascript:S2814Å"CRename "a" as this name is already used in declaration at line 140.(€¸<8¯öóµò,
-gjavascript:S2814Ü"CRename "f" as this name is already used in declaration at line 145.(‘ûÕ’8ö¼È»ò,
-ljavascript:S2814¬"CRename "c" as this name is already used in declaration at line 142.(°‹¹İúÿÿÿÿ8ğæ»ò,
-gjavascript:S2814Ç"CRename "c" as this name is already used in declaration at line 142.(ì†å’8ì¹¬»ò,
-gjavascript:S2814ª"CRename "a" as this name is already used in declaration at line 140.(úÀ‹Ü8úø‘»ò,
-_javascript:S1854#"<Remove this useless assignment to local variable "firstName"(€ñà8°ö­ä†-
-Pjavascript:Parentheses "!Remove those useless parentheses.(²¸ìÁøÿÿÿÿ8¸„Âõí,
-gjavascript:S2814Ù"CRename "c" as this name is already used in declaration at line 142.(Œåß¥8ö¼È»ò,
-ljavascript:S28140"IRename "charCode" as this name is already used in declaration at line 46.(œöÜœ8 àıà†-
-ljavascript:S2814ë"CRename "c" as this name is already used in declaration at line 142.(æ¨Ïşÿÿÿÿ8Ì¼Ò»ò,
-gjavascript:S2814î"CRename "f" as this name is already used in declaration at line 145.(‘œ‰Â8Ì¼Ò»ò,
-ljavascript:S2814È"CRename "d" as this name is already used in declaration at line 143.(†íüöúÿÿÿÿ8ì¹¬»ò,
-ojavascript:S2589"LRefactor this code so that this expression does not always evaluate to true.(ùşßÚ8ÂõöÀò,
-fjavascript:S2814Ø"CRename "b" as this name is already used in declaration at line 141.(¾Å¶48ö¼È»ò,
-ljavascript:S2814²"CRename "i" as this name is already used in declaration at line 148.(ÅÍ ùÿÿÿÿ8ğæ»ò,
-ljavascript:S2814´"CRename "k" as this name is already used in declaration at line 150.(Íó€õøÿÿÿÿ8ğæ»ò,
-`javascript:S3972Ã"7Move this "if" to a new line or add the missing "else".(âßÀúÿÿÿÿ8õÀ¬¾ò,
-ljavascript:S2814í"CRename "e" as this name is already used in declaration at line 144.(ÚÆëîşÿÿÿÿ8Ì¼Ò»ò,
-gjavascript:S2814Ú"CRename "d" as this name is already used in declaration at line 143.(ã¡ç²8ö¼È»ò,
-gjavascript:S2814«"CRename "b" as this name is already used in declaration at line 141.(‰Ú¦´8 æ‘»ò,
-ljavascript:S2814¯"CRename "f" as this name is already used in declaration at line 145.(–óÔÒüÿÿÿÿ8ğæ»ò,
-`javascript:S3972ç"7Move this "if" to a new line or add the missing "else".(ÓŞ¦şÿÿÿÿ8ıû®¾ò,
-fjavascript:UnusedVariable#":Remove the declaration of the unused 'firstName' variable.(€ñà8°ö­ä†-
-gjavascript:S2814±"CRename "h" as this name is already used in declaration at line 147.(××¸Ÿ8ğæ»ò,
-[javascript:S3972¨"7Move this "if" to a new line or add the missing "else".(Çìâ8€’«¾ò,
-jjavascript:UnusedVariable'"9Remove the declaration of the unused 'lastName' variable.(’à¡¡şÿÿÿÿ8’ı®ä†-
-cjavascript:S1854'";Remove this useless assignment to local variable "lastName"(’à¡¡şÿÿÿÿ8’ı®ä†-
+tjavascript:S2589"LRefactor this code so that this expression does not always evaluate to true.(é»©ÿÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814Ô"CRename "j" as this name is already used in declaration at line 182.(ˆô««8‚Û¬±‰-
+ljavascript:S2814Ó"CRename "i" as this name is already used in declaration at line 181.(ÅÍ ùÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814Ì"CRename "b" as this name is already used in declaration at line 174.(‰Ú¦´8‚Û¬±‰-
+fjavascript:S2814ç"CRename "b" as this name is already used in declaration at line 174.(¬·ÌV8‚Û¬±‰-
+fjavascript:S2814ù"CRename "b" as this name is already used in declaration at line 174.(¾Å¶48‚Û¬±‰-
+ljavascript:S2814‹"CRename "b" as this name is already used in declaration at line 174.(‚ÿ—áüÿÿÿÿ8‚Û¬±‰-
+ljavascript:S2814Õ"CRename "k" as this name is already used in declaration at line 183.(Íó€õøÿÿÿÿ8‚Û¬±‰-
+ljavascript:S2814Ï"CRename "e" as this name is already used in declaration at line 177.(àÚå²ùÿÿÿÿ8‚Û¬±‰-
+ljavascript:S2814ê"CRename "e" as this name is already used in declaration at line 177.(ÆÑ£Ïúÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814ü"CRename "e" as this name is already used in declaration at line 177.(¯‚›´8‚Û¬±‰-
+ljavascript:S2814"CRename "e" as this name is already used in declaration at line 177.(ÚÆëîşÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814Ò"CRename "h" as this name is already used in declaration at line 180.(××¸Ÿ8‚Û¬±‰-
+ljavascript:S2814Î"CRename "d" as this name is already used in declaration at line 176.(æƒÍÀÿÿÿÿÿ8‚Û¬±‰-
+ljavascript:S2814é"CRename "d" as this name is already used in declaration at line 176.(†íüöúÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814û"CRename "d" as this name is already used in declaration at line 176.(ã¡ç²8‚Û¬±‰-
+ljavascript:S2814"CRename "d" as this name is already used in declaration at line 176.(«ãÙøÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814Ë"CRename "a" as this name is already used in declaration at line 173.(úÀ‹Ü8‚Û¬±‰-
+fjavascript:S2814æ"CRename "a" as this name is already used in declaration at line 173.(€¸<8‚Û¬±‰-
+gjavascript:S2814ø"CRename "a" as this name is already used in declaration at line 173.(Üş—Ö8‚Û¬±‰-
+gjavascript:S2814Š"CRename "a" as this name is already used in declaration at line 173.(šáí²8‚Û¬±‰-
+ljavascript:S2814Q"IRename "charCode" as this name is already used in declaration at line 79.(œöÜœ8‚Û¬±‰-
+ljavascript:S2814Ğ"CRename "f" as this name is already used in declaration at line 178.(–óÔÒüÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814ë"CRename "f" as this name is already used in declaration at line 178.(’–Û8‚Û¬±‰-
+gjavascript:S2814ı"CRename "f" as this name is already used in declaration at line 178.(‘ûÕ’8‚Û¬±‰-
+gjavascript:S2814"CRename "f" as this name is already used in declaration at line 178.(‘œ‰Â8‚Û¬±‰-
+ljavascript:S2814Í"CRename "c" as this name is already used in declaration at line 175.(°‹¹İúÿÿÿÿ8‚Û¬±‰-
+gjavascript:S2814è"CRename "c" as this name is already used in declaration at line 175.(ì†å’8‚Û¬±‰-
+gjavascript:S2814ú"CRename "c" as this name is already used in declaration at line 175.(Œåß¥8‚Û¬±‰-
+ljavascript:S2814Œ"CRename "c" as this name is already used in declaration at line 175.(æ¨Ïşÿÿÿÿ8‚Û¬±‰-
+fjavascript:S2814Ñ"CRename "g" as this name is already used in declaration at line 179.(¹™ÀH8‚Û¬±‰-
+[javascript:S3972É"7Move this "if" to a new line or add the missing "else".(Çìâ8‚Û¬±‰-
+`javascript:S3972ä"7Move this "if" to a new line or add the missing "else".(âßÀúÿÿÿÿ8‚Û¬±‰-
+`javascript:S3972ö"7Move this "if" to a new line or add the missing "else".(ËÏ—áüÿÿÿÿ8‚Û¬±‰-
+`javascript:S3972ˆ"7Move this "if" to a new line or add the missing "else".(ÓŞ¦şÿÿÿÿ8‚Û¬±‰-
+[javascript:S3972à"7Move this "if" to a new line or add the missing "else".(æâÜ’8‚Û¬±‰-
+[javascript:S3972ã"7Move this "if" to a new line or add the missing "else".(æ‘ü»8‚Û¬±‰-
+`javascript:S3972æ"7Move this "if" to a new line or add the missing "else".(İ¾Ùÿÿÿÿÿ8‚Û¬±‰-
+`javascript:S3972é"7Move this "if" to a new line or add the missing "else".(“ºıÿÿÿÿÿ8‚Û¬±‰-
+[javascript:S3972ì"7Move this "if" to a new line or add the missing "else".(¸ˆëº8‚Û¬±‰-
+[javascript:S3972ï"7Move this "if" to a new line or add the missing "else".(ÖË©Ú8‚Û¬±‰-
+[javascript:S3972ò"7Move this "if" to a new line or add the missing "else".(µÜ­œ8‚Û¬±‰-
+[javascript:S3972õ"7Move this "if" to a new line or add the missing "else".(½„‘8‚Û¬±‰-
+ijavascript:S1126V"AReplace this if-then-else statement by a single return statement.(²€äÅùÿÿÿÿ8‚Û¬±‰-
+Pjavascript:ParenthesesÁ"!Remove those useless parentheses.(²¸ìÁøÿÿÿÿ8‚Û¬±‰-

@@ -82,3 +82,13 @@ L
 assets/css/bootstrap.min.css,9\a\9a3beffb675960f8c16a30bc0caa24dc4ec7eea1
 <
 Confirm.html,0\0\0071a670ee2cf925236f5c1d74811a63318f80e2
+@
+assets/js/npm.js,6\a\6a98b36edf8ccbf7970a3727da4b2a1837ea987d
+H
+assets/css/bootstrap.css,3\0\3032073b24be6c6d2d3d11725b4870ceea918c07
+]
+-assets/Fonts/glyphicons-halflings-regular.svg,2\a\2acba94ec0cfcc3ae6a17de1760b670d0d39896a
+?
+bootstrap.patch,1\4\141d235212b99f3eff83c173f991dc24dc7ec8c6
+G
+assets/js/jquery.min.js,d\7\d73278fe89129125678650887b2486170583e90e
